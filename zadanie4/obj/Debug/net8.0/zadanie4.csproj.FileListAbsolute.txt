@@ -1,0 +1,14 @@
+C:\all_i_need\praktyki\zadanie4\bin\Debug\net8.0\zadanie4.exe
+C:\all_i_need\praktyki\zadanie4\bin\Debug\net8.0\zadanie4.deps.json
+C:\all_i_need\praktyki\zadanie4\bin\Debug\net8.0\zadanie4.runtimeconfig.json
+C:\all_i_need\praktyki\zadanie4\bin\Debug\net8.0\zadanie4.dll
+C:\all_i_need\praktyki\zadanie4\bin\Debug\net8.0\zadanie4.pdb
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.GeneratedMSBuildEditorConfig.editorconfig
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.AssemblyInfoInputs.cache
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.AssemblyInfo.cs
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.csproj.CoreCompileInputs.cache
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.dll
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\refint\zadanie4.dll
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.pdb
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\zadanie4.genruntimeconfig.cache
+C:\all_i_need\praktyki\zadanie4\obj\Debug\net8.0\ref\zadanie4.dll
