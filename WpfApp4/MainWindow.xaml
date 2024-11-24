@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp4.GalleryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Galeria" Height="400" Width="600" Background="LightPink">
+    <Grid>
+   
+        <Image x:Name="ImageDisplay" HorizontalAlignment="Left" VerticalAlignment="Top" Width="500" Height="300" Margin="54,19,0,0" />
+
+        <Button Content="◀ " HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="17,0,0,41" 
+                Click="PreviousButton_Click" Background="White" Foreground="HotPink" FontWeight="Bold"/>
+
+        <Button Content=" ▶" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,29,36" 
+                Click="NextButton_Click" Background="White" Foreground="HotPink" FontWeight="Bold"/>
+    </Grid>
+</Window>
