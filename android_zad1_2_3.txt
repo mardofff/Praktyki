@@ -1,0 +1,79 @@
+zad 1 
+import React, { useState } from 'react';
+function RyczaltCalculator() {
+    const [przychod, setPrzychod] = useState('');
+    const [wynik, setWynik] = useState(0);
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const ryczalt = parseFloat(przychod) * 0.12;
+        setWynik(ryczalt.toFixed(2));
+    };
+    return (
+        <div>
+            <h1>Oblicz ryczalt</h1>
+            <form onSubmit={handleSubmit}>
+                <label>
+                    Przychod brutto (zł):
+                    <input
+                        type="number"
+                        value={przychod}
+                        onChange={(e) => setPrzychod(e.target.value)}
+                        required
+                    />
+                </label>
+                <button type="submit">Oblicz</button>
+            </form>
+            <h2>Wynik: {wynik} zl</h2>
+        </div>
+    );
+}
+
+export default RyczaltCalculator;
+
+zad 2
+import React from 'react';
+function Gallery() {
+    const images = ['1.jpg','2.jpg','3.jpg','4.jpg',];
+    return (
+        <div>
+            <h1>galeria</h1>
+            <div style={{ display: 'grid', gap: '10px', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))' }}>
+                {images.map((src, index) => (
+                    <img key={index} src={src} alt={`Zdjęcie ${index + 1}`} style={{ border: '2px solid #ddd', borderRadius: '8px' }} />
+                ))}
+            </div>
+        </div>
+    );
+}
+
+export default Gallery;
+
+zad3
+JS
+import React from 'react';
+import './App.css';
+
+function RotatingSquare() {
+    return <div className="square"></div>;
+}
+
+export default RotatingSquare;
+
+CSS
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: rotate 2s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+  
